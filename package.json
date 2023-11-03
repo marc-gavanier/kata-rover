@@ -1,0 +1,39 @@
+{
+  "name": "gdcr-2023",
+  "version": "0.0.1",
+  "description": "Global Day of Code Retreat 2023",
+  "keywords": [
+    "Global Day of Code Retreat",
+    "gdcr",
+    "Software Crafters Lyon"
+  ],
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "vite build",
+    "test": "vitest",
+    "lint.es": "eslint",
+    "lint.commit": "commitlint --from origin/main",
+    "lint.staged": "lint-staged",
+    "prettier": "prettier --write ./src/",
+    "prepare": "husky install"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@commitlint/cli": "^17.7.1",
+    "@commitlint/config-conventional": "^17.7.0",
+    "@types/node": "^20.5.9",
+    "@typescript-eslint/eslint-plugin": "^6.5.0",
+    "@typescript-eslint/parser": "^6.5.0",
+    "@vitest/coverage-v8": "^0.33.0",
+    "eslint": "^8.48.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-vitest": "^0.3.1",
+    "husky": "^8.0.3",
+    "lint-staged": "^14.0.1",
+    "prettier": "^3.0.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2",
+    "vite": "^4.4.9",
+    "vitest": "^0.34.3"
+  }
+}
