@@ -9,7 +9,7 @@ Code retreats are free day-long, intensive practice events, focusing on the fund
 - Implement commands that move the rover forward (M).
 - Implement commands that turn the rover left/right (L,R).
 
-## 📑 Table des matières
+## 📑 Content table
 
 - 🪧 [About](#about)
 - 🤗 [Contribution](#contribution)
